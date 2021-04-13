@@ -10,7 +10,7 @@ padding: 0 20;
 }
 
 .chat{
-width: calc(100vw - 300px);
+width: calc(100% - 300px);
 background-color: #ffffff;
 height: 100px;
 
@@ -119,13 +119,13 @@ align-items: center;
 .form{
   background-color: #dddddd;
   height: 90px;
-  width: calc(100vw - 300px);
+  /* width: calc(100vw - 300px); */
   padding: 20px 40px;
   display: flex;
 }
 
 .form-input{
-color: white;
+background-color: white;
 width: 100%;
 display: flex;
 }
